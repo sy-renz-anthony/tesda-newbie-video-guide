@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className="content w-full h-auto  min-h-100 top-0 left-0 flex flex-grow items-center justify-center bg-[url('./assets/background/vecteezy_abstract-white-and-gray-light-gradient-lines-background_6469230.jpg')] bg-cover bg-center">
          <video
-            className="w-full max-w-3xl h-full rounded-lg shadow-lg"
+            className="w-full max-w-3xl h-full m-5 rounded-lg shadow-lg"
             controls
           >
             <source src={vid} type="video/mp4" />
