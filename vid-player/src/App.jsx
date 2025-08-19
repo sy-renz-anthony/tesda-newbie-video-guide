@@ -14,7 +14,7 @@ function App() {
         <h1 className="text-white text-2xl font-bold">TESDA T2MIS FEEDBACKING</h1>
       </div>
       <div className="content w-full h-auto  min-h-100 top-0 left-0 flex flex-grow items-center justify-center  bg-[url('./assets/background/vecteezy_abstract-white-and-gray-light-gradient-lines-background_6469230.jpg')] bg-cover bg-center">
-        <ul className='text-4xl text-gray-600 font-bold sm:text-lg'>
+        <ul className='text-gray-600 font-bold text-4xl max-sm:text-xl'>
           <li className="my-15 hover:text-orange-400">- <a
               href={doc1}
               target="_blank"
