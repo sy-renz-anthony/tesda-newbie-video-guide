@@ -1,5 +1,5 @@
-# Jehan Video Player
-This simple React App plays a Newbie Video Guide for TESDA Dumaguete
+# Jehan TESDA project
+This simple React App shows link to pdf files that guide newbies on how to apply for TESDA dumaguete
 \
 It is currently live under the free tier on render.com, the url is: https://tesda-newbie-video-guide.onrender.com
 \
