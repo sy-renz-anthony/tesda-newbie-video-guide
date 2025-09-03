@@ -1,9 +1,11 @@
 import logo from "./assets/TESDA-emblem-white.png";
-import doc1 from "./assets/doc1.pdf";
-import doc2 from "./assets/doc2.pdf";
+import doc2 from "./assets/Letter of request.pdf";
+import doc1 from "./assets/FEEDBACK CATEGORIES and REQUIREMENTS.pdf";
 import doc3 from "./assets/doc3.pdf";
 
 import Carousel from './Carousel';
+
+import { FaRegDotCircle } from "react-icons/fa";
 
 function App() {
   
@@ -15,25 +17,28 @@ function App() {
       </div>
       <div className="content w-full h-auto  min-h-100 top-0 left-0 flex flex-grow bg-[url('./assets/background/vecteezy_abstract-white-and-gray-light-gradient-lines-background_6469230.jpg')] bg-cover bg-center">
         
-        <div className="w-full h-full flex flex-col items-center justify-center">
+        <div className="relative w-full h-full flex flex-col md:flex-row items-center justify-center">
           <Carousel />
-          <ul className='text-gray-600 font-bold text-lg sm:text-4xl my-5'>
-            <li className="my-15 hover:text-orange-400">- <a
-                href={doc1}
-                target="_blank"
-                rel="noopener noreferrer"
-              >Feedbacking Guidelines</a></li>
-            <li className="my-15 hover:text-orange-400">- <a
-                href={doc2}
-                target="_blank"
-                rel="noopener noreferrer"
-              >Letter of Request</a></li>
-            <li className="my-15 hover:text-orange-400">- <a
-                href={doc3}
-                target="_blank"
-                rel="noopener noreferrer"
-              >RM's Step-by-step guide</a></li>
-          </ul>
+          <div className="w-full h-full text-center mx-10">
+            <ul className='w-full text-gray-600 font-bold text-lg sm:text-4xl my-5'>
+              <li className="my-15 hover:text-orange-400 flex flex-row"><FaRegDotCircle className="w-7 h-auto my-auto hover:hidden block"/>&nbsp;<a
+                  href={doc1}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Feedbacking Guidelines</a></li>
+              <li className="my-15 hover:text-orange-400 flex flex-row"><FaRegDotCircle className="w-7 h-auto my-auto"/>&nbsp;<a
+                  href={doc2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Letter of Request</a></li>
+              <li className="my-15 hover:text-orange-400 flex flex-row"><FaRegDotCircle className="w-7 h-auto my-auto"/>&nbsp;<a
+                  href={doc3}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >RM's Step-by-step guide</a></li>
+            </ul>
+          </div>
+          
         </div>
          
       </div>

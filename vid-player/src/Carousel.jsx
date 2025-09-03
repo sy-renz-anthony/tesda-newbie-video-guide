@@ -4,15 +4,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import carouselImage1 from "./assets/carousel/img1.jpg";
-import carouselImage2 from "./assets/carousel/img2.jpg";
-import carouselImage3 from "./assets/carousel/img3.jpg";
+import carouselImage1 from "./assets/carousel/img1.png";
+import carouselImage2 from "./assets/carousel/img2.png";
+import carouselImage3 from "./assets/carousel/img3.png";
+import carouselImage4 from "./assets/carousel/img4.png";
 
 export default function Carousel() {
-  const slides = [carouselImage1, carouselImage2, carouselImage3];
+  const slides = [carouselImage1, carouselImage2, carouselImage3, carouselImage4];
 
   return (
-    <div className="w-full mx-auto">
+    <div className="relative w-full max-w-200 h-auto py-10 px-2">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={20}
@@ -29,7 +30,7 @@ export default function Carousel() {
             <img
               src={src}
               alt={`Slide ${idx + 1}`}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto top-0 mx-auto object-cover"
             />
           </SwiperSlide>
         ))}
