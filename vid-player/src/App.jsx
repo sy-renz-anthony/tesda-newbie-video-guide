@@ -1,7 +1,7 @@
 import logo from "./assets/TESDA-emblem-white.png";
 import doc2 from "./assets/Letter of request.pdf";
 import doc1 from "./assets/FEEDBACK CATEGORIES and REQUIREMENTS.pdf";
-import doc3 from "./assets/doc3.pdf";
+import doc3 from "./assets/feedback_guide.pdf";
 
 import Carousel from './Carousel';
 
