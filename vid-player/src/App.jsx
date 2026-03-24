@@ -1,5 +1,5 @@
 import logo from "./assets/TESDA-emblem-white.png";
-import doc2 from "./assets/Letter of request.pdf";
+import doc2 from "./assets/ANNEX.pdf";
 import doc1 from "./assets/FEEDBACK CATEGORIES and REQUIREMENTS.pdf";
 import doc3 from "./assets/feedback_guide.pdf";
 
@@ -35,17 +35,19 @@ function App() {
                   href={doc3}
                   target="_blank"
                   rel="noopener noreferrer"
-                >RM's Step-by-step guide</a></li>
+                >Step-by-step guide(T2MIS)</a></li>
             </ul>
           </div>
           
         </div>
          
       </div>
-      <div className='footer bg-gray-900 relative w-full h-20 bottom-0 left-0 text-white text-right text-sm px-5 py-3'>
+      <div className='footer bg-gray-900 relative w-full h-30 bottom-0 left-0 text-white text-right text-sm px-5 py-3'>
         <p>Developed by: Jehan P. Mama &trade;</p>
         <p>OJT from NORSU - Siaton Campus</p>
         <p>SY: 2025-2026</p>
+        <br />
+        <p>Kenneth John Baliquig</p>
       </div>    
     </div>
   )
