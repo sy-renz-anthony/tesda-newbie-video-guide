@@ -42,12 +42,12 @@ function App() {
         </div>
          
       </div>
-      <div className='footer bg-gray-900 relative w-full h-30 bottom-0 left-0 text-white text-right text-sm px-5 py-3'>
-        <p>Developed by: Jehan P. Mama &trade;</p>
-        <p>OJT from NORSU - Siaton Campus</p>
-        <p>SY: 2025-2026</p>
-        <br />
-        <p>Kenneth John Baliquig</p>
+      <div className='bg-gray-900 relative w-full h-30 bottom-0 left-0  px-5 py-10 justify-items-end'>
+        <div className="w-fit h-full text-white text-left text-sm">
+          <p>Developed by: </p>
+          <p>Kenneth John Baliquig & Jehan P. Mama &trade;</p>
+        </div>
+        
       </div>    
     </div>
   )
